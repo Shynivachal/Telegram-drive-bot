@@ -40,7 +40,6 @@ def health_check():
 def health():
     return {"status": "healthy", "bot": "running"}
 
-# Google Drive Authentication using Service Account
 def get_drive_service():
     try:
         service_account_info = os.environ.get("GOOGLE_SERVICE_ACCOUNT")
@@ -266,7 +265,6 @@ application.add_handler(CommandHandler("status", status_command))
 application.add_handler(MessageHandler(filters.Document.ALL, handle_file))
 application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, text_handler))
 
-# Telegram webhook endpoint
 @app.route(f"/webhook/{TELEGRAM_BOT_TOKEN}", methods=["POST"])
 def telegram_webhook():
     update = Update.de_json(request.get_json(force=True), application.bot)
@@ -282,3 +280,4 @@ def set_webhook():
 if __name__ == "__main__":
     PORT = int(os.environ.get('PORT', 8000))
     app.run(host="0.0.0.0", port=PORT)
+        
