@@ -9,7 +9,7 @@ import json
 import io
 import tempfile
 import threading
-import asyncio  # <-- Ensure this is imported!
+import asyncio  # <-- ADDED for event loop fix
 
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
@@ -317,9 +317,10 @@ async def text_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def run_bot():
     """Run the Telegram bot in a separate thread."""
-    # Ensure this thread has its own asyncio event loop
+    # --- THE ONLY FIX ADDED BELOW ---
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
+    # --- END FIX ---
 
     # Verify environment variables
     if not TELEGRAM_BOT_TOKEN:
@@ -354,4 +355,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-        
+                
