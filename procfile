@@ -1,1 +1,1 @@
-worker: python telegram_gdrive_bot.py
+web: python mobile_friendly_bot.py
