@@ -7,6 +7,10 @@ http://192.168.185.140:5001/live/180.m3u8
 http://192.168.185.140:5001/live/662.m3u8
 #EXTINF:-1 tvg-id=780 tvg-name="Mathrubhumi News" tvg-logo="http://192.168.185.140:5001/jtvimage/Mathrubhumi_News.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", Mathrubhumi News
 http://192.168.185.140:5001/live/780.m3u8
+#EXTINF:-1 tvg-id=965 tvg-name="News 18 Kerala" tvg-logo="http://192.168.185.140:5001/jtvimage/News_18_Kerala.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", News 18 Kerala
+http://192.168.185.140:5001/live/965.m3u8
+#EXTINF:-1 tvg-id=1250 tvg-name="Twenty Four News" tvg-logo="http://192.168.185.140:5001/jtvimage/TWENTY_FOUR_NEWS.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", Twenty Four News
+http://192.168.185.140:5001/live/1250.m3u8
 #EXTINF:-1 tvg-id=725 tvg-name="Kairali News" tvg-logo="http://192.168.185.140:5001/jtvimage/Kairali_People_TV.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", Kairali News
 http://192.168.185.140:5001/live/725.m3u8
 #EXTINF:-1 tvg-id=810 tvg-name="Janam TV" tvg-logo="http://192.168.185.140:5001/jtvimage/Janam_TV.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", Janam TV
@@ -67,10 +71,6 @@ http://192.168.185.140:5001/live/842.m3u8
 http://192.168.185.140:5001/live/844.m3u8
 #EXTINF:-1 tvg-id=910 tvg-name="Media One TV" tvg-logo="http://192.168.185.140:5001/jtvimage/Media_One_TV.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", Media One TV
 http://192.168.185.140:5001/live/910.m3u8
-#EXTINF:-1 tvg-id=965 tvg-name="News 18 Kerala" tvg-logo="http://192.168.185.140:5001/jtvimage/News_18_Kerala.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", News 18 Kerala
-http://192.168.185.140:5001/live/965.m3u8
-#EXTINF:-1 tvg-id=1250 tvg-name="Twenty Four News" tvg-logo="http://192.168.185.140:5001/jtvimage/TWENTY_FOUR_NEWS.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", Twenty Four News
-http://192.168.185.140:5001/live/1250.m3u8
 #EXTINF:-1 tvg-id=1340 tvg-name="Nick Malayalam" tvg-logo="http://192.168.185.140:5001/jtvimage/Nick_Malayalam.png" tvg-language="Malayalam" tvg-type="Kids" group-title="Malayalam", Nick Malayalam
 http://192.168.185.140:5001/live/1340.m3u8
 #EXTINF:-1 tvg-id=1344 tvg-name="Sonic Malayalam" tvg-logo="http://192.168.185.140:5001/jtvimage/Sonic_Malayalam.png" tvg-language="Malayalam" tvg-type="Kids" group-title="Malayalam", Sonic Malayalam
