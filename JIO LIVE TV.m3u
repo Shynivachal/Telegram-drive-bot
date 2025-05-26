@@ -21,6 +21,8 @@ http://192.168.185.140:5001/live/493.m3u8
 http://192.168.185.140:5001/live/193.m3u8
 #EXTINF:-1 tvg-id=383 tvg-name="Times NOW" tvg-logo="http://192.168.185.140:5001/jtvimage/Times_NOW.png" tvg-language="English" tvg-type="News" group-title="English", Times NOW
 http://192.168.185.140:5001/live/383.m3u8
+#EXTINF:-1 tvg-id=494 tvg-name="AL Jazeera" tvg-logo="http://192.168.185.140:5001/jtvimage/AL_Jazeera.png" tvg-language="English" tvg-type="News" group-title="English", AL Jazeera
+http://192.168.185.140:5001/live/494.m3u8
 #EXTINF:-1 tvg-id=648 tvg-name="Mazhavil Manorama" tvg-logo="http://192.168.185.140:5001/jtvimage/Mazhavil_Manorama.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Malayalam", Mazhavil Manorama
 http://192.168.185.140:5001/live/648.m3u8
 #EXTINF:-1 tvg-id=900 tvg-name="Surya HD" tvg-logo="http://192.168.185.140:5001/jtvimage/Surya_HD.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Malayalam", Surya HD
@@ -111,8 +113,6 @@ http://192.168.185.140:5001/live/463.m3u8
 http://192.168.185.140:5001/live/491.m3u8
 #EXTINF:-1 tvg-id=492 tvg-name="CNN NEWS 18" tvg-logo="http://192.168.185.140:5001/jtvimage/CNN_NEWS_18.png" tvg-language="English" tvg-type="News" group-title="English", CNN NEWS 18
 http://192.168.185.140:5001/live/492.m3u8
-#EXTINF:-1 tvg-id=494 tvg-name="AL Jazeera" tvg-logo="http://192.168.185.140:5001/jtvimage/AL_Jazeera.png" tvg-language="English" tvg-type="News" group-title="English", AL Jazeera
-http://192.168.185.140:5001/live/494.m3u8
 #EXTINF:-1 tvg-id=495 tvg-name="News X" tvg-logo="http://192.168.185.140:5001/jtvimage/News_X.png" tvg-language="English" tvg-type="News" group-title="English", News X
 http://192.168.185.140:5001/live/495.m3u8
 #EXTINF:-1 tvg-id=496 tvg-name="dw" tvg-logo="http://192.168.185.140:5001/jtvimage/dw.png" tvg-language="English" tvg-type="News" group-title="English", dw
