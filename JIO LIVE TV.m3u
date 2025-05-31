@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="180" tvg-name="Asianet News" tvg-logo="http://192.168.185.140:5001/jtvimage/Asianet_News.png" group-title="Malayalam",Asianet News HD
-https://asianet-live.onrender.com/
+https://vidcdn.vidgyor.com/asianet-origin/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id=    tvg-name="Asianet News" tvg-logo="http://192.168.185.140:5001/jtvimage/Asianet_News.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", Asianet News
 http://192.168.185.140:5001/live/180.m3u8
 #EXTINF:-1 tvg-id=662 tvg-name="Manorama News" tvg-logo="http://192.168.185.140:5001/jtvimage/Manorama_News.png" tvg-language="Malayalam" tvg-type="News" group-title="Malayalam", Manorama News
